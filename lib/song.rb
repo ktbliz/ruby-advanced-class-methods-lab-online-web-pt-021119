@@ -46,7 +46,8 @@ class Song
   end 
   
   def self.new_from_filename(filename)
-    filename_sans_mp3 = 
+    filename_sans_mp3 = filename[0..-5]
+    
   end 
   
   
